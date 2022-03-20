@@ -1,0 +1,15 @@
+###
+POST http://localhost:40000/log
+Content-Type: text/html
+
+j1231
+
+
+###
+POST http://localhost:3000/services
+Content-Type: application/json
+
+{
+    "ServiceName":"Business Service",
+    "ServiceURL":"http://localhost:5000/services"
+}
