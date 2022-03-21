@@ -11,11 +11,10 @@ import (
 )
 
 func main() {
-	log.Run("./distributed.log")
-	host, port := "localhost", "4000"
+	host, port := "localhost", "6000"
 	serviceAddress := fmt.Sprintf("http://%s:%s", host, port)
 	r := registry.Registration{
-		ServiceName: registry.LogService,
+		ServiceName: registry.GradingService,
 		ServiceUrl:  serviceAddress,
 	}
 	ctx, err := service.Start(
@@ -31,5 +30,4 @@ func main() {
 	}
 	<-ctx.Done()
 	fmt.Println("shutting down log service.")
-
 }
