@@ -1,1 +1,17 @@
 go 2022/03/20 13:56:35 j1231
+go 2022/03/26 17:06:59 [GradingService] - http: Server closed
+
+go 2022/03/26 17:09:04 [GradingService] - http: Server closed
+
+go 2022/03/26 17:26:05 [GradingService] - http: Server closed
+
+go 2022/03/26 18:25:18 [GradingService] - http: Server closed
+
+go 2022/03/26 18:26:49 [GradingService] - http: Server closed
+
+go 2022/03/26 18:31:29 [GradingService] - http: Server closed
+
+go 2022/03/26 18:31:29 [GradingService] - Failed to deregister service. Registry service responded with cod 400
+
+go 2022/03/26 18:31:48 [GradingService] - http: Server closed
+
